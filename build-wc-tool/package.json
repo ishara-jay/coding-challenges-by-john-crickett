@@ -1,0 +1,24 @@
+{
+  "name": "ccwc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ccwc": "./index.js"
+  },
+  "keywords": [],
+  "author": "Ishara Jayaweera",
+  "contributors": [
+    {
+      "name": "Ishara Jayaweera",
+      "email": "ishara.u.jayaweera@gmail.com"
+    },
+    {
+      "name": "Dulanja Gunawardena",
+      "email": "dulanja.coding@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "description": "A simple command line tool to text file related operations like bytes, characters, words, and lines in a file.",
+  "dependencies": {}
+}

@@ -4,7 +4,7 @@ import fs from 'fs';
 import { byteCounter } from './byte-counter.js';
 import { lineCounter } from './line-counter.js';
 import { wordCounter } from './word-counter.js';
-
+import { characterCounter } from './character-counter.js';
 const args = process.argv.slice(2);
 
 
@@ -19,6 +19,9 @@ if(fs.existsSync(args[1])) {
               break;
             case '-w':
               console.log(`${wordCounter(args[1])} ${args[1]}`);
+              break;
+            case '-m':
+              console.log(`${characterCounter(args[1])} ${args[1]}`);
               break;
             default:
               console.log('Invalid option');
